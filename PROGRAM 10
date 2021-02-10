@@ -1,0 +1,7 @@
+derajat = int(input('suhu celcius = '))
+
+reamur = 0.8*derajat
+fahrenheit = (1.8*derajat)+32
+
+print (derajat, 'celcius sama nilainya dengan', reamur, 'reamur')
+print (derajat, 'celcius sama nilainya dengan', fahrenheit, 'fahrenheit')
