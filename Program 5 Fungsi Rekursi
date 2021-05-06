@@ -1,0 +1,7 @@
+#konversi bilangan biner ke desimal
+
+biner = input('masukkan bilangan biner : ')
+desimal = 0
+for i in biner:
+    desimal = desimal*2 + int(i)
+print (desimal)
